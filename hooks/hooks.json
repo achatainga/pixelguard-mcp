@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "hooks": [
+    {
+      "event": "PreToolUse",
+      "matcher": {
+        "tool": "write_file",
+        "pattern": "\\.(jsx|tsx|vue|html|css)$"
+      },
+      "action": {
+        "type": "lint_frontend_tokens",
+        "instruction": "Scan frontend component code for arbitrary Tailwind magic numbers (e.g. text-[13px]) and WCAG contrast violations."
+      }
+    }
+  ]
+}
