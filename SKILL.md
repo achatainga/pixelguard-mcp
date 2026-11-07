@@ -1,5 +1,5 @@
 ---
-name: pixelguard-mcp
+name: pixelguard
 description: AST Figma-to-Code Design Token Linter & WCAG Contrast Guard for Tailwind CSS and React.
 version: 1.0.0
 tags:
