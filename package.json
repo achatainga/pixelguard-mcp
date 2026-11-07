@@ -1,6 +1,6 @@
 {
   "name": "@achatainga/pixelguard-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AST Figma-to-Code Design Token Linter & WCAG Contrast Guard for Tailwind CSS and React",
   "type": "module",
   "main": "src/engine.mjs",
